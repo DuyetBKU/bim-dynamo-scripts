@@ -1,0 +1,4 @@
+t1 = Revit.Element.GetParameterValueByName(t2, "Sheet Name");
+t3 = true;
+str2 = String.ChangeCase(t1, t3);
+element1 = Revit.Element.SetParameterByName(t2, "Sheet Name", str2);
