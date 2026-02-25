@@ -1,0 +1,3 @@
+t1 = Revit.Element.GetParameterValueByName(t2, "Sheet Number");
+str4 = String.Replace(t1, "KT", "A");
+element1 = Revit.Element.SetParameterByName(t2, "Sheet Number", str4);
