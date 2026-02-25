@@ -1,0 +1,7 @@
+t1 = "Sheet1";
+t2 = true;
+t3 = DSOffice.Data.ImportExcel(t4, t1, t2, true);
+t5 = List.Transpose(t3);
+t6 = List.GetItemAtIndex(t5, 1);
+t7 = List.GetItemAtIndex(t5, 0);
+sheet1 = Sheet.ByNameNumberTitleBlockAndView(t6, t7, t8, t9);
